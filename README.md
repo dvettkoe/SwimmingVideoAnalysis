@@ -123,8 +123,8 @@ You are asked to input a folder for postprocessing. Create a new folder for this
 
 #### Notes
 
-<sup>1</sup>Should you have combined wrong tracks or deleted wrong tracks and have noticed later then one step, you cannot undo it within the program. Instead, note the number (and name can be seen above the video window) of video you are analyzing and close the program. Now go to the directory which you analyzed in your file browser and locate the two following files: “*_tracks.txt.temp.xlsx” and “*_tracks.txt.temp_undo.xlsx” for the video you made a mistake. Delete both files. Afterwards, go into the “tracks_processed” folder of this directory and open the “*_log.txt” file. Here you find every step you have done protocolled. You can now copy the numbers you want to combine or delete after opening the video in the program again. This will save you time as you do not have analyze the whole video from the beginning (although you still have to to all steps again, but they are documented). Just make sure to skip the step you did an error. 
-(“*” equals the name of the video)
+<sup>1</sup>Should you have combined wrong tracks or deleted wrong tracks and have noticed later then one step, you cannot undo it within the program. Instead, note the number (and name can be seen above the video window) of video you are analyzing and close the program. Now go to the directory which you analyzed in your file browser and locate the two following files: “x_tracks.txt.temp.xlsx” and “x_tracks.txt.temp_undo.xlsx” for the video you made a mistake. Delete both files. Afterwards, go into the “tracks_processed” folder of this directory and open the “x_log.txt” file. Here you find every step you have done protocolled. You can now copy the numbers you want to combine or delete after opening the video in the program again. This will save you time as you do not have analyze the whole video from the beginning (although you still have to to all steps again, but they are documented). Just make sure to skip the step you did an error. 
+(“x” equals the name of the video)
 
 
 
