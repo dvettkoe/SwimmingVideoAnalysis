@@ -50,7 +50,7 @@ Jumping to a specific frame is possible by typing the frame number into the entr
 
 The table on the right contrians the following columns:
 
-**Track**: These numbers are displayed in the video next to the respective worm.
+**Track**: This is set as the Index of the table as default<sup>1</sup>. These numbers are displayed in the video next to the respective worm.
 
 **#Frames**: Those are the numbers of frames the worm was tracked
 
@@ -70,7 +70,7 @@ Scroll through the video and check every worm that was not tracked the whole tim
 If you see that a worm was tracked less then the video duration look for it in the video and follow it by going through all frames. Some worms are lost by the software and just get a new number (and sometimes more than once). 
 Sometimes worms cross each other and get a new track number assigned to them afterwards. In both cases input the first number and each following new assigned number and then press the combine button. The table should now show the first track number and you will see that the #Frames is now higher (best case scenario would be that it is now the same as a worm tracked the whole time, but it is most likely still lower. However, you have gained some more data for this worm by combining all of its alternative numbers as it sums their Bends).
 
-> **Careful: Should the #Frames or time(s) exceed the video duration, most likely a wrong number was input and wrong tracks combined together. In this case, click on the “undo” button. However, this button can only undo ONE input. If you see it after combining another track, it is not possible to undo it and this video need to be re-analyzed again. See the note for this on the bottom<sup>1</sup>.**
+> **Careful: Should the #Frames or time(s) exceed the video duration, most likely a wrong number was input and wrong tracks combined together. In this case, click on the “undo” button. However, this button can only undo ONE input. If you see it after combining another track, it is not possible to undo it and this video need to be re-analyzed again. See the note for this on the bottom<sup>2</sup>.**
 >
 > **So be careful and check after each combining step!**
 
@@ -123,7 +123,9 @@ You are asked to input a folder for postprocessing. Create a new folder for this
 
 #### Notes
 
-<sup>1</sup>Should you have combined wrong tracks or deleted wrong tracks and have noticed later then one step, you cannot undo it within the program. Instead, note the number (and name can be seen above the video window) of video you are analyzing and close the program. Now go to the directory which you analyzed in your file browser and locate the two following files: “x_tracks.txt.temp.xlsx” and “x_tracks.txt.temp_undo.xlsx” for the video you made a mistake. Delete both files. Afterwards, go into the “tracks_processed” folder of this directory and open the “x_log.txt” file. Here you find every step you have done protocolled. You can now copy the numbers you want to combine or delete after opening the video in the program again. This will save you time as you do not have analyze the whole video from the beginning (although you still have to to all steps again, but they are documented). Just make sure to skip the step you did an error. 
+<sup>1</sup>After combining tracks the index should refresh and only show the first track number to which tracks were combined and remove the others from the table. Deleting tracks should also result in removing of the track row and therefore index number from the table. However, sometimes it is possible that the index is numbering the rows from 1 to n (end of the rows) - in this case the search function will not work properly as well as it is difficult to use the table as a reference. To solve this problem an easy fix is to right-click the index (left, light-grey cloumn) and click on "Toggle Index". The index should now be displayed correctly.
+
+<sup>2</sup>Should you have combined wrong tracks or deleted wrong tracks and have noticed later then one step, you cannot undo it within the program. Instead, note the number (and name can be seen above the video window) of video you are analyzing and close the program. Now go to the directory which you analyzed in your file browser and locate the two following files: “x_tracks.txt.temp.xlsx” and “x_tracks.txt.temp_undo.xlsx” for the video you made a mistake. Delete both files. Afterwards, go into the “tracks_processed” folder of this directory and open the “x_log.txt” file. Here you find every step you have done protocolled. You can now copy the numbers you want to combine or delete after opening the video in the program again. This will save you time as you do not have analyze the whole video from the beginning (although you still have to to all steps again, but they are documented). Just make sure to skip the step you did an error. 
 (“x” equals the name of the video)
 
 
